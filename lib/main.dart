@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'features/home/presentation/view/home_screen.dart';
+import 'features/splash/view/splash_screen.dart';
 
 void main() {
   runApp(const SephaApp());
@@ -12,7 +11,7 @@ class SephaApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }
